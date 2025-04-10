@@ -20,7 +20,7 @@ st.title("🎬 Recommandation de films intelligente")
 st.image("findyournextmovie.png")
 
 # --- Chargement du dataset ---
-df = pd.read_parquet("C:\\Users\\Z\\streamlit_env\\df_machine_learning (4).parquet")
+df = pd.read_parquet("df_machine_learning (4).parquet")
 df = df.reset_index(drop=True)
 
 # --- Prétraitement identique au code ML initial ---
