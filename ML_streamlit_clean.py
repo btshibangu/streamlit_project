@@ -17,7 +17,7 @@ stop_words_EF = stopwords.words('english') + stopwords.words('french')
 
 # --- Interface Streamlit ---
 st.title("🎬 Recommandation de films intelligente")
-st.image("C:\\Users\\Z\\streamlit_project_films\\findyournextmovie.png")
+st.image("findyournextmovie.png")
 
 # --- Chargement du dataset ---
 df = pd.read_parquet("C:\\Users\\Z\\streamlit_env\\df_machine_learning (4).parquet")
